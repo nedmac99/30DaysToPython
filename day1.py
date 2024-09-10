@@ -47,3 +47,9 @@ print(type("My name"))
   
 #Find an Euclidian distance between (2, 3) and (10, 8)
 
+#Euclidian Distance formula
+#distance = square root (x1-x2)^2 + (y1-y2)^2
+import math
+x1,y1,x2,y2 = 2,3,10,8
+dist = math.sqrt(pow((x1 - x2),2) + pow((y1 - y2),2))
+print(dist)
