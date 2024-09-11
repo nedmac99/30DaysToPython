@@ -62,3 +62,29 @@ print(type(x))
 print(type(y))
 print(type(z))
 
+print(len(first_name))
+print('first name: ', len(first_name), ' last name: ', len(last_name))
+
+num_one = 5
+num_two = 4
+
+print(num_one + num_two)
+print(num_one - num_two)
+print(num_one * num_two)
+print(num_one / num_two)
+print(num_one % num_two)
+print(pow(num_one,num_two))
+print(num_one // num_two)
+
+
+import math
+# area of a circle formula A = pi(r^2)
+radius = int(input('Enter radius: '))
+
+area_of_cirlce = math.pi * pow(radius,2)
+print(area_of_cirlce)
+
+#C = 2pir
+circum_of_circle = 2 * math.pi * radius
+print(circum_of_circle)
+
